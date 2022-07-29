@@ -8,8 +8,50 @@ img {
 }
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  text-align: center;
+}
+
+.one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  width: 200px;
+}
+
+.two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  width: 200px;
+}
+
+.three {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  width: 200px;
+}
+
+.four {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  width: 200px;
 }
 
 /* do not edit this footer */
